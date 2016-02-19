@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo aosp_c6833-userdebug
+add_lunch_combo omni_togari-userdebug

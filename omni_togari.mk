@@ -12,6 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aosp_c6833.mk \
-	$(LOCAL_DIR)/omni_togari.mk
+# Assert
+TARGET_OTA_ASSERT_DEVICE := C6833,togari
+
+# TWRP Recovery
+DEVICE_RESOLUTION := 1080x1920
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
+
+# Inherit AOSP Rhine common device parts
+$(call inherit-product, device/sony/togari/aosp_c6833.mk)
+
+# Inherit Omni GSM telephony parts
+$(call inherit-product, device/sony/common/radio.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
+# Inherit Omni product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
+
+# Override Product Name for OmniROM
+PRODUCT_NAME := omni_togari
+PRODUCT_MODEL := Xperia Z Ultra
