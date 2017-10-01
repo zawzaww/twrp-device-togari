@@ -1,7 +1,8 @@
-Copyright (C) Sony Mobile Communications 2014
-=============================================
+# Sony Xperia Z Ultra Device Tree (togari)
 
-This is the Android device configuration for Xperia Z Ultra (rhine platform).
+## Copyright (C) 2014 Sony Mobile Communications
+## Copyright (C) 2014 The Android Open Source Project
 
-Build instructions
-http://developer.sonymobile.com/knowledge-base/open-source/open-devices/aosp-build-instructions/
+<center><img src="http://cdn2.gsmarena.com/vv/pics/sony/sony-xperia-z-ultra1.jpg" height="54%" width="54%;"/></center>
+
+// Maintained by: ZawZaw @XDA-Developers
