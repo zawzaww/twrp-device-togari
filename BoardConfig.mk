@@ -16,5 +16,14 @@ include device/sony/rhine-common/PlatformConfigOmni.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := C6833
 
+# Inline Kernel
+BOARD_KERNEL_IMAGE_NAME := zImage-dtb
+TARGET_KERNEL_SOURCE := kernel/sony/togari
+TARGET_KERNEL_CONFIG := aosp_rhine_togari_defconfig
+TARGET_KERNEL_ARCH := arm
+TARGET_KERNEL_HEADER_ARCH := arm
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
+TARGET_USES_UNCOMPRESSED_KERNEL := true
+
 BOARD_KERNEL_CMDLINE += androidboot.hardware=togari
 BOARD_KERNEL_CMDLINE += mem=1759M
