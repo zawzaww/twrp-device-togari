@@ -14,7 +14,11 @@
 
 include device/sony/rhine-common/PlatformConfigOmni.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := C6833
+# Target Board and Platform
+TARGET_NO_BOOTLOADER := true
+TARGET_NO_RADIOIMAGE := true
+TARGET_BOARD_PLATFORM := msm8974
+TARGET_BOOTLOADER_BOARD_NAME := togari
 
 # Inline Kernel
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
