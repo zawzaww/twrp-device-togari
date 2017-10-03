@@ -32,3 +32,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_togari
 PRODUCT_MODEL := Xperia Z Ultra
+PRODUCT_DEVICE := togari
+PRODUCT_BRAND := Sony
+PRODUCT_MANUFACTURER := Sony
