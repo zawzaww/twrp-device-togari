@@ -5,4 +5,4 @@
 
 <center><img src="http://cdn2.gsmarena.com/vv/pics/sony/sony-xperia-z-ultra1.jpg" height="54%" width="54%;"/></center>
 
-// Maintained by: ZawZaw @XDA-Developers
+// Maintained by: ZawZaw [@XDA-Developers](https://forum.xda-developers.com/member.php?u=7581611)
